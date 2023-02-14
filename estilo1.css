@@ -2,13 +2,34 @@
 
     display:flex;
     justify-content: space-between;
+    background-color: black;
+    height: 70px;
+    padding: 10px;
 
+
+
+}
+
+#titulo-logo{
+    position: absolute;
+    display:flex;
+    color: white;
+    align-items: center;
+    left: 110px;
+    top:18px;
+    
 
 }
 
 #logo{
 
+    display: flex;
+    height: 70px;
+    
+   
+
     
 
 
 }
+
