@@ -1,17 +1,14 @@
 #header{
 
-    position: absolute;
-
-
+    display:flex;
+    justify-content: space-between;
 
 
 }
 
 #logo{
-    height: 100px;
-    width: 100px;
 
+    
 
 
 }
-#menu{}
