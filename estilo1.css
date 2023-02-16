@@ -5,25 +5,18 @@
 }
 
 body{
-
-
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
 
 header{
-
     background-color:white;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     background-image:url(IMAGENES/definitive.jpg);
-    
-
-
+    height: 950px;
 }
 
 nav a{
-
     text-decoration: none;
     display: inline-block;
     color:forestgreen;
@@ -31,20 +24,26 @@ nav a{
     margin: 25px;
     padding: 5px 15px;
     border-radius: 30px;
-
+    font-size: 1.2em;
 }
 
 nav a:hover{
-
-    background-color:black;
+    background-color:white;
     color: forestgreen;
-
 }
 
-.encabezado-imagen{
 
-    
-    height: 400px;
+#logo{
+    position:absolute;
+    width: 5%;
+    left: 80px;
+    top: 40px;
+}
+
+
+
+.encabezado-imagen{
+    height: 500px;
     width: 100%;
     background-size:cover;
     display: flex;
@@ -54,13 +53,70 @@ nav a:hover{
 }
 
 .encabezado-imagen p{
-    font-size: 20px;
+    font-size: 40px;
+    padding: 30px;
     color: white;
 }
 
 .encabezado-imagen h1{
-
     color: green;
-    font-size: 50px;
+    font-size: 70px;
 
 }
+
+.redes{
+width: 50px;
+height: 50px;
+position: relative;
+left: 28px;
+
+}
+
+.apps{
+    position: relative;
+    width: 120px;
+    height: 100px;
+    left: 3px;
+    margin: 15px;
+
+}
+
+span{
+    color:mediumpurple;
+    font-weight: 600;
+}
+
+.div1{
+    position: absolute;
+    right: 950px;
+    text-align: center;
+    top: 700px;
+    color: white;
+}
+.div1 h2{
+    color: green;
+}
+
+.div1 p{
+    margin: 15px;
+}
+.div2{
+    position: absolute;
+    top: 700px;
+    right: 600px;
+}
+
+.div2 h2{
+    color: green;
+}
+
+.div3{
+    position:absolute;
+    left: 925px;
+    top: 700px;
+}
+
+.div3 h2{
+    color: green;
+}
+
