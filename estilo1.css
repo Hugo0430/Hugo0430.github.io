@@ -42,7 +42,7 @@ nav a:hover{
 
 
 
-.encabezado-imagen{
+#encabezado-imagen{
     height: 500px;
     width: 100%;
     background-size:cover;
@@ -52,13 +52,13 @@ nav a:hover{
     align-items: center;
 }
 
-.encabezado-imagen p{
+#encabezado-imagen p{
     font-size: 40px;
     padding: 30px;
     color: white;
 }
 
-.encabezado-imagen h1{
+#encabezado-imagen h1{
     color: green;
     font-size: 70px;
 
@@ -74,10 +74,10 @@ left: 28px;
 
 .apps{
     position: relative;
-    width: 120px;
+    width: 150px;
     height: 100px;
-    left: 3px;
-    margin: 15px;
+    right: 20px;
+    margin: 10px;
 
 }
 
@@ -92,6 +92,7 @@ span{
     text-align: center;
     top: 700px;
     color: white;
+    padding-left: 20px;
 }
 .div1 h2{
     color: green;
@@ -119,4 +120,10 @@ span{
 .div3 h2{
     color: green;
 }
+
+hr{
+    color: red;
+}
+
+
 
