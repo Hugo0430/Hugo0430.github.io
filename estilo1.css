@@ -5,15 +5,20 @@
 }
 
 body{
+   
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+  
+
+
 header{
+    background-image:url(IMAGENES/definitive.jpg);
+    background-size: 100%;
     background-color:white;
     text-align: center;
     padding: 25px;
-    background-image:url(IMAGENES/definitive.jpg);
-    height: 950px;
+    height: 1300px;
 }
 
 nav a{
@@ -88,7 +93,7 @@ span{
     position: absolute;
     right: 950px;
     text-align: center;
-    top: 700px;
+    top: 1100px;
     color: white;
     padding-left: 20px;
 }
@@ -101,7 +106,7 @@ span{
 }
 .div2{
     position: absolute;
-    top: 700px;
+    top: 1100px;
     right: 600px;
 }
 
@@ -112,12 +117,13 @@ span{
 .div3{
     position:absolute;
     left: 925px;
-    top: 700px;
+    top: 1100px;
 }
 
 .div3 h2{
     color: green;
 }
+
 
 
 
