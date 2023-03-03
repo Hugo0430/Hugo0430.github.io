@@ -271,6 +271,35 @@ td, th{
     color: white;
 }
 
+.titulo1{
+    color: green;
+    position: relative;
+    right: 520px;
+}
+
+.titulo2{
+    color: green;
+    position: relative;
+    right: 420px;
+}
+
+.nosotros{
+    text-align: left;
+    color: white;
+}
+
+header ul{
+    text-align: left;
+    position: relative;
+    left: 20px;
+    list-style-type: square;
+    color: white;
+}
+
+.volver{
+    color: black;
+}
+
 
 
 
