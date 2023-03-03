@@ -203,7 +203,7 @@ span{
 .form2{
 
     position: relative;
-    top: 65px;
+    top: 30px;
 
 }
 
@@ -264,6 +264,11 @@ td, th{
     left: 430px;
     
 
+}
+
+.sede{
+
+    color: white;
 }
 
 
